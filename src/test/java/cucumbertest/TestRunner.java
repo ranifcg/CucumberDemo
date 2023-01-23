@@ -10,8 +10,10 @@ import io.cucumber.junit.Cucumber;
 		(
 		features = "Features",
 		glue = {"stepDefinition"},
-		tags = "(@SmokeTest or @RegressionTest) and (not @E2ETest)"
-		//tags = "not @E2ETest"
+		//tags = "@tag"
+
+		//tags = "(@SmokeTest or @RegressionTest) and (not @E2ETest)"
+		tags = "@completeprogram"
 		//tags = "@SmokeTest or @RegressionTest"
 		//tags = "@SmokeTest and @RegressionTest"
 
